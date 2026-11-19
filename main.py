@@ -1,3 +1,4 @@
+
 import json
 from pathlib import Path
 import shutil
@@ -323,7 +324,6 @@ def delete_package(packages):
         print("Delete operation cancelled.")
 
 
- 
 def main():
     """Run the WanderWays inventory application."""
     try:
